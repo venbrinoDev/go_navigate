@@ -1,7 +1,8 @@
-name: go_package
-description: Go navigator
+name: go_navigate
+description: I didnt Like the normal name given to navigator so i created Go ....naviagte.goBack
 version: 0.0.1
-homepage:
+authour: VenbrinoDev <venbrinosoftwaredeveloper@gmail.com>
+homepage: https://github.com/venbrinoDev/go_Package
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
