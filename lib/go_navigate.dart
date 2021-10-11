@@ -21,8 +21,8 @@ class Go implements BaseNavigator{
   }
 
   @override
-  goToAndClearAll(BuildContext context, String route,{arguments}) {
-    Navigator.of(context).pushNamedAndRemoveUntil(route, ModalRoute.withName('/'), arguments: arguments);
+  goToAndClearAll(BuildContext context, String route,String? defaultHome,{arguments}) {
+    Navigator.of(context).pushNamedAndRemoveUntil(route, ModalRoute.withName(defaultHome??'/'), arguments: arguments);
   }
 
   @override
